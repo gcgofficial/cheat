@@ -1,1 +1,348 @@
-gg.alert("Upgrade")
+gg.alert('GCG~OFFICIAL~MOD~MENU~',"MENU~ON")
+
+--MENU ADD IN SECRIPT
+HOME = 1
+function HOME()
+multi = gg.multiChoice({
+"[] CAMERA TENGAH/YOUTUBER ",
+"[] DHOLPIN SET MANUAL ",
+"[] SPEEP KHUSUS BALAP ",
+"EXIT",
+
+},nil,'BUSSID~V3.7.1')
+
+if multi == nil then else
+if multi[1] == true then ch1() end
+if multi[2] == true then ch2() end
+if multi[3] == true then ch3() end
+if multi[4] == true then os.exit()
+end
+end
+HOMEDM = -1
+end
+
+function ch1()
+gg.alert('GCG~OFFICIAL~MOD~MENU~',"menu.1_proses")
+gg.searchNumber("0.69999998808;5.19999980927:9", ggTYPE_FLOAT)
+--[[ found: 0 ]]
+gg.refineNumber("0.69999998808", gg.TYPE_FLOAT)
+--[[ found: 12 ]]
+gg.getResults(10)
+--[[count: 10 ]]
+gg.editAll("0",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2.25;5.19999980927:9", ggTYPE_FLOAT)
+--[[ found: 0 ]]
+gg.refineNumber("2.25", gg.TYPE_FLOAT)
+--[[ found: 12 ]]
+gg.getResults(10)
+--[[count: 10 ]]
+gg.editAll("2.23",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2.23;5.19999980927:9", ggTYPE_FLOAT)
+--[[ found: 0 ]]
+gg.refineNumber("5.19999980927", gg.TYPE_FLOAT)
+--[[ found: 12 ]]
+gg.getResults(10)
+--[[count: 10 ]]
+gg.editAll("4",gg.TYPE_FLOAT)
+gg.toast("menu.1")
+gg.clearResults()
+gg.setVisible(false)
+end
+
+function ch2()
+gg.toast("▓▒▒▒▒▒▒▒▒▒10%")
+gg.sleep(100)
+gg.toast("▓▓▒▒▒▒▒▒▒▒20%")
+gg.sleep(100)
+gg.toast("▓▓▓▒▒▒▒▒▒▒30%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▒▒▒▒▒▒40%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▓▒▒▒▒▒50%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▓▓▒▒▒▒60%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▓▓▓▒▒▒70%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▓▓▓▓▒▒80%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▓▓▓▓▓▒90%")
+gg.sleep(100)
+gg.toast("▓▓▓▓▓▓▓▓▓▓100%")
+gg.sleep(500)
+gg.toast("■□□□□□□□□□10%  ")
+gg.sleep(100)
+gg.toast("■■□□□□□□□□20%  ")
+gg.sleep(100)
+gg.toast("■■■□□□□□□□30%  ")
+gg.sleep(100)
+gg.toast("■■■■□□□□□□40%  ")
+gg.sleep(100)
+gg.toast("■■■■■□□□□□50%  ")
+gg.sleep(100)
+gg.toast("■■■■■■□□□□60%  ")
+gg.sleep(100)
+gg.toast("■■■■■■■□□□70%  ")
+gg.sleep(100)
+gg.toast("■■■■■■■■□□80%  ")
+gg.sleep(100)
+gg.toast("■■■■■■■■■□90%. ")
+gg.sleep(100)
+gg.toast("■■■■■■■■■■100%")
+gg.sleep(500)
+ function GCGARU()
+end
+function setvalue(address,flags,value) GCGARU('Modify address value(Address, value type, value to be modified)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+
+
+gg.alert("SELAMAT DATANG ")
+gg.toast("SELAMAT DATANG DI SCRIPT  TEAM GCG OFFICIAL")
+function HOME()
+TRD = gg.multiChoice({
+	"1C➡️➡️➡️0,001",
+	"1C➡️➡️➡️0,01",
+	"1C➡️➡️➡️0,00001",
+	"88⬅️🔛➡️,25",
+	"88➡️🔛➡️0,85",
+	"88➡️🔛➡️0,55",
+	"94◀️🔼▶️0,87",
+	"94◀️🔼▶️0,75",
+	"94◀️🔼▶️0,99",
+	"A0↔️🔼↔️0,25",
+	"A0↔️🔼↔️0,85",
+	"A0↔️🔼↔️0,55",
+	"10🔼⏏️🔼0,40",
+	"10🔼⏏️🔼0,66",
+	"2C⏏️⏏️⏏️-0,22",
+	"2C⏏️⏏️⏏️-0,66",
+	"📍OPTIMAL📍",
+	"EXIT",
+}, nil, ":::BANGKALAN:::SCRIPT  BY GCG TEKAN OK ")
+if TRD == nil then else
+if TRD [1] == true then A1()end
+if TRD [2] == true then A2()end
+if TRD [3] == true then A3()end
+if TRD [4] == true then A11()end
+if TRD [5] == true then A12()end
+if TRD [6] == true then A13()end
+if TRD [7] == true then A21()end
+if TRD [8] == true then A22()end
+if TRD [9] == true then A23()end
+if TRD [10] == true then A31()end
+if TRD [11] == true then A32()end
+if TRD [12] == true then A33()end
+if TRD [13] == true then A44()end
+if TRD [14] == true then A444()end
+if TRD [15] == true then A111()end
+if TRD [16] == true then A123()end
+if TRD [17] == true then Axxx()end
+if TRD [18] == true then HOME()
+end
+end
+PUBGMH = -1
+end
+
+function A1()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x196f1c
+setvalue(so+py,16,0.00100000005)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function A2()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x196f1c
+setvalue(so+py,16,0.01999999955)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+
+
+
+function A3()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x196f1c
+setvalue(so+py,16,0.00001)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function A11()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x197388
+setvalue(so+py,16,0.25999999046)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+
+function A12()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x197388
+setvalue(so+py,16,0.85000002384)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+
+
+function A13()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x197388
+setvalue(so+py,16,0.55000001192)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+
+function A21()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x197394
+setvalue(so+py,16,0.87000000477)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function A22()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x197394
+setvalue(so+py,16,0.75999999046)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function A23()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x197394
+setvalue(so+py,16,0.99000000954)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+function A31()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x1973a0
+setvalue(so+py,16,0.25999999046)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+function A32()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x1973a0
+setvalue(so+py,16,0.55000001192)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+
+function A33()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x1973a0
+setvalue(so+py,16,0.40000000596)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function A44()
+so=gg.getRangesList('libunity.so')[1].start
+py=0xbdc10
+setvalue(so+py,16,0.40000000596)
+gg.sleep(955)
+gg.toast("ON")
+end
+function A444()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x19a98c
+setvalue(so+py,16,1)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function A111()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x19a98c
+setvalue(so+py,16,-0.21999999881)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+function A123()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x19A98C
+setvalue(so+py,16,-0.66000002623)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+
+function Axxx()
+so=gg.getRangesList('libunity.so')[1].start
+py=0x196f1c
+setvalue(so+py,16,1)
+gg.sleep(955)
+gg.toast("ON")
+end
+
+function Exit()
+print ("HATUR NUHUN")
+gg.toast("SCRIPT BY GCG")
+gg.skipRestoreState()
+  os.exit()
+  gg.setVisible(true)
+end
+
+while true do
+  if gg.isVisible(true) then
+    PUBGMH = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if PUBGMH == 1 then
+    HOME()
+  end
+end
+
+------🙃🙃🙃🙃🙃🙃🙃🙃🙃🙃🙃🙃😉😉😉😉😉😉😶😆😅😅😆😶😉😐🤐😤😅😂😂😁😁😂😅😆😶😉😐😐🤗😍😤😅😂😁😘😘
+
+
+end
+
+
+
+
+function ch3()
+   gg.searchNumber("1.0;0.06666666269:5", gg.TYPE_FLOAT)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.sleep(50)
+gg.clearList()
+   gg.clearResults()
+  gg.toast(" SPEED  BALAP KMH[ACTIVE]")
+  end 
+
+while true do
+  if gg.isVisible(false) then
+    HOMEDM = 1
+    gg.setVisible(false)
+    end
+    print(os.date("%c"))
+  print("SC BY OTAK ATIK APK")
+    if HOMEDM == 1 then HOME() end
+end
